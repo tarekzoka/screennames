@@ -51,7 +51,7 @@ download_and_install_package() {
         rm -f "$temp_dir/$targz_file"
 
         if [ $extract -eq 0 ]; then
-            echo "> $plugin-$version package installed successfully"
+            echo "> $plugin-$version package installed successfully by tarek_hanfy"
         else
             echo "> Extraction failed for $plugin-$version package"
         fi
