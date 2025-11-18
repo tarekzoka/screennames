@@ -1,9 +1,9 @@
 #!/bin/sh
-# Command=wget https://raw.githubusercontent.com/tarekzoka/refs/heads/main/screennames/screennames.sh -O - | /bin/sh
+# Command=wget https://raw.githubusercontent.com/tarekzoka/screennames/main/screennames.sh -O - | /bin/sh
 ##
 plugin="screennames"
 version="latest"
-url="https://raw.githubusercontent.com/tarekzoka/refs/heads/main/screennames"
+url="https://raw.githubusercontent.com/tarekzoka/screennames/main"  
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/ScreenNames"
 package="enigma2-plugin-extensions-$plugin"
 targz_file="$plugin.tar.gz"
